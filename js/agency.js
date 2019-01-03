@@ -1,13 +1,13 @@
 (function($) {
   "use strict"; // Start of use strict
 
-  $('#store').load('./html/store.html')
-  $('#music').load('./html/music.html')
-  $('#contact').load('./html/contact.html')
-  $('#about-me').load('./html/about.html')
-  $('#mainNav').load('./html/nav.html')
-  $('#blog').load('./html/blog.html')
-  $('#footer').load('./html/footer.html')
+  $('#store').load('./../html/store.html')
+  $('#music').load('./../html/music.html')
+  $('#contact').load('./../html/contact.html')
+  $('#about-me').load('./../html/about.html')
+  $('#mainNav').load('./../html/nav.html')
+  $('#blog').load('./../html/blog.html')
+  $('#footer').load('./../html/footer.html')
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
